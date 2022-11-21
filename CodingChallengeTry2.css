@@ -1,0 +1,77 @@
+/* Valori Generali */
+body {
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.contenitore {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 65%;
+  margin: auto;
+  margin-top: 2%;
+  padding-bottom: 5%;
+  padding: auto;
+  font-family: 'Ubuntu', sans-serif;
+  border-radius: 2%;
+}
+
+/* Header */
+.logo {
+  width: 20%;
+  padding-top: 8%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.titolo {
+  text-align: center;
+  color: LimeGreen;
+  margin-top: 1%;
+}
+
+.base-nav {
+  padding: 1%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  background-color: LimeGreen;
+}
+
+/* Inizio liste Monopattini: caratteri generali e peculiari dei monopattini*/
+main {
+  margin-left: 10%;
+  margin-right: 10%;
+  color: white;
+}
+
+.monopattino-name {
+ display: inline-block;
+}
+
+.via {
+  position: relative;
+  bottom: 10px
+}
+
+.barra-carica {
+  height: 25px;
+  border-radius: 5%;
+}
+
+.medium-battery {
+  width: 30%;
+  background-color: rgb(244, 164, 96);
+}
+
+.high-battery {
+  width: 50%;
+  background-color: rgb(50, 205, 50);
+}
+
+.low-battery {
+  width: 15%;
+  background-color: rgb(160, 50, 50);
+}
